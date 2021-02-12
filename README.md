@@ -577,7 +577,7 @@ First we need to be able to identify which mode we're using in the tests, so let
 
 ```diff
 - export { provider, chainId }
-+ export { provider, chainId, isOVM }
++ export { provider, isOVM }
 ```
 
 In `UniswapV2Factory.spec.ts`, let's update the failing test:
